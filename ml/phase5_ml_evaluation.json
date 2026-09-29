@@ -1,0 +1,43 @@
+{
+  "split_sizes": {
+    "train": 14000,
+    "val": 3000,
+    "test": 3000
+  },
+  "score_stability_check": {
+    "repeated_single_row_scores": [
+      0.949357,
+      0.949357,
+      0.949357,
+      0.949357,
+      0.949357
+    ],
+    "same_row_in_batch_of_10": 0.949357,
+    "same_row_in_full_batch": 0.949357,
+    "all_identical_regardless_of_batch": true
+  },
+  "anomaly_detection_evaluation": {
+    "threshold_selected_on_val": 0.985,
+    "val_best_f1": 0.7222,
+    "test_precision": 0.825,
+    "test_recall": 0.55,
+    "test_f1": 0.66,
+    "test_roc_auc": 0.9887,
+    "test_pr_auc": 0.7915,
+    "precision_at_50": 0.8,
+    "precision_at_100": 0.51,
+    "precision_at_500": 0.12,
+    "note": "Metrics measure fit to THIS generator's own definition of anomalous (synthetic ground truth), not real-world detection capability -- see audit Section 16."
+  },
+  "clustering_evaluation": {
+    "n_clusters": 5,
+    "noise_fraction": 0.0244,
+    "silhouette_score": 0.2121
+  },
+  "clustering_algorithm_used": "hdbscan",
+  "clustering_fell_back_from_dbscan": true,
+  "cluster_purity_vs_scenario_ground_truth": {
+    "purity": 1.0,
+    "n_evaluated": 182
+  }
+}

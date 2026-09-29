@@ -1,0 +1,16 @@
+{
+  "total_rows": 100000,
+  "direct_edges": 659106,
+  "direct_coverage": 1.0,
+  "network_only_observations": 12000,
+  "fallback_edges": 15095,
+  "fallback_mean_confidence": 0.29678014574362366,
+  "fallback_evaluation_against_ground_truth": {
+    "n_seeded_observations": 9000,
+    "n_noise_observations": 3000,
+    "coverage_any_candidate_found": 0.4952,
+    "hit_rate_true_txid_among_candidates": 0.4921,
+    "top1_hit_rate_true_txid_highest_confidence": 0.4921,
+    "noise_false_positive_rate": 0.0077
+  }
+}

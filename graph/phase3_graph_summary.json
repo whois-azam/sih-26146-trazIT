@@ -1,0 +1,38 @@
+{
+  "graph_summary": {
+    "total_nodes": 121567,
+    "total_edges": 1217285,
+    "node_counts_by_type": {
+      "transaction": 100000,
+      "wallet": 20000,
+      "ip": 1559,
+      "asn": 4,
+      "geo_country": 4
+    },
+    "edge_counts_by_type": {
+      "output": 200681,
+      "input": 128811,
+      "transfer": 247032,
+      "network_observation": 637643,
+      "resolves_to": 3118
+    }
+  },
+  "build_seconds": 15.158,
+  "wallet_projection_nodes": 20000,
+  "wallet_projection_edges": 246950,
+  "benchmark": {
+    "n_nodes": 20000,
+    "n_edges": 246950,
+    "degree_centrality_seconds": 0.009,
+    "betweenness_approx_k500_seconds": 106.603,
+    "louvain_seconds": 14.968,
+    "n_communities_found": 51
+  },
+  "n_communities": 51,
+  "modularity": 0.16477376434796265,
+  "ring_recovery_eval": {
+    "multi_wallet_rings_total": 66,
+    "rings_fully_recovered_in_one_community": 48,
+    "ring_recovery_rate": 0.7273
+  }
+}

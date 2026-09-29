@@ -1,0 +1,170 @@
+{
+  "phase1_generation": {
+    "seed": 42,
+    "rows": 100000,
+    "n_wallets": 20000,
+    "anomaly_rate": 0.02,
+    "n_risky_wallets": 400,
+    "n_scenario_instances": 312,
+    "span_days": 90,
+    "leakage_sanity_check": {
+      "fee_mean_risky": 0.000567304964534216,
+      "fee_mean_normal": 0.0005412422836484853,
+      "amount_mean_risky": 0.3770934435413365,
+      "amount_mean_normal": 0.23612837075478008,
+      "risky_row_fraction": 0.14803
+    },
+    "network_only_observations": 12000,
+    "network_only_seeded": 9000,
+    "network_only_noise": 3000
+  },
+  "phase2_correlation": {
+    "total_rows": 100000,
+    "direct_edges": 659106,
+    "direct_coverage": 1.0,
+    "network_only_observations": 12000,
+    "fallback_edges": 15095,
+    "fallback_mean_confidence": 0.29678014574362366,
+    "fallback_evaluation_against_ground_truth": {
+      "n_seeded_observations": 9000,
+      "n_noise_observations": 3000,
+      "coverage_any_candidate_found": 0.4952,
+      "hit_rate_true_txid_among_candidates": 0.4921,
+      "top1_hit_rate_true_txid_highest_confidence": 0.4921,
+      "noise_false_positive_rate": 0.0077
+    }
+  },
+  "phase3_graph": {
+    "graph_summary": {
+      "total_nodes": 121567,
+      "total_edges": 1217568,
+      "node_counts_by_type": {
+        "transaction": 100000,
+        "wallet": 20000,
+        "ip": 1559,
+        "asn": 4,
+        "geo_country": 4
+      },
+      "edge_counts_by_type": {
+        "output": 198262,
+        "input": 131301,
+        "transfer": 247140,
+        "network_observation": 637747,
+        "resolves_to": 3118
+      }
+    },
+    "build_seconds": 16.637,
+    "wallet_projection_nodes": 20000,
+    "wallet_projection_edges": 247042,
+    "benchmark": {
+      "n_nodes": 20000,
+      "n_edges": 247042,
+      "degree_centrality_seconds": 0.009,
+      "betweenness_approx_k500_seconds": 98.304,
+      "louvain_seconds": 7.736,
+      "n_communities_found": 52
+    },
+    "n_communities": 52,
+    "modularity": 0.17215252707040404,
+    "ring_recovery_eval": {
+      "multi_wallet_rings_total": 66,
+      "rings_fully_recovered_in_one_community": 55,
+      "ring_recovery_rate": 0.8333
+    }
+  },
+  "phase5_ml": {
+    "split_sizes": {
+      "train": 14000,
+      "val": 3000,
+      "test": 3000
+    },
+    "score_stability_check": {
+      "repeated_single_row_scores": [
+        0.949357,
+        0.949357,
+        0.949357,
+        0.949357,
+        0.949357
+      ],
+      "same_row_in_batch_of_10": 0.949357,
+      "same_row_in_full_batch": 0.949357,
+      "all_identical_regardless_of_batch": true
+    },
+    "anomaly_detection_evaluation": {
+      "threshold_selected_on_val": 0.985,
+      "val_best_f1": 0.7222,
+      "test_precision": 0.825,
+      "test_recall": 0.55,
+      "test_f1": 0.66,
+      "test_roc_auc": 0.9887,
+      "test_pr_auc": 0.7915,
+      "precision_at_50": 0.8,
+      "precision_at_100": 0.51,
+      "precision_at_500": 0.12,
+      "note": "Metrics measure fit to THIS generator's own definition of anomalous (synthetic ground truth), not real-world detection capability -- see audit Section 16."
+    },
+    "clustering_evaluation": {
+      "n_clusters": 5,
+      "noise_fraction": 0.0244,
+      "silhouette_score": 0.2121
+    },
+    "clustering_algorithm_used": "hdbscan",
+    "clustering_fell_back_from_dbscan": true,
+    "cluster_purity_vs_scenario_ground_truth": {
+      "purity": 1.0,
+      "n_evaluated": 182
+    }
+  },
+  "phase6_risk_scoring": {
+    "default_hypothesis_weights": {
+      "anomaly": 0.45,
+      "graph_centrality": 0.2,
+      "cluster_outlier": 0.15,
+      "flagged_neighbors": 0.2
+    },
+    "naive_correlation_weights_worse_kept_for_comparison": {
+      "anomaly": 0.2298,
+      "graph_centrality": 0.0762,
+      "cluster_outlier": 0.4694,
+      "flagged_neighbors": 0.2246
+    },
+    "logistic_regression_weights_used": {
+      "anomaly": 0.5791,
+      "graph_centrality": 0.1261,
+      "cluster_outlier": 0.0977,
+      "flagged_neighbors": 0.1971
+    },
+    "logistic_regression_info": {
+      "raw_coefficients": {
+        "anomaly": 19.099,
+        "graph_centrality": 4.1601,
+        "cluster_outlier": 3.2217,
+        "flagged_neighbors": 6.5011
+      },
+      "intercept": -21.3774
+    },
+    "thresholds": {
+      "critical": 78.58457882333977,
+      "high": 65.9243678602708,
+      "medium": 57.94889577686335
+    },
+    "risk_level_counts": {
+      "LOW": 16982,
+      "MEDIUM": 2031,
+      "HIGH": 779,
+      "CRITICAL": 208
+    },
+    "ranking_comparison": {
+      "logistic_combined_pr_auc": 0.7228,
+      "anomaly_only_pr_auc": 0.7915,
+      "default_weight_combined_pr_auc": 0.64,
+      "naive_correlation_combined_pr_auc": 0.5057,
+      "logistic_combined_precision_at_50": 0.8,
+      "anomaly_only_precision_at_50": 0.8,
+      "default_weight_precision_at_50": 0.62,
+      "logistic_combined_precision_at_100": 0.53,
+      "anomaly_only_precision_at_100": 0.51,
+      "default_weight_precision_at_100": 0.54
+    }
+  }
+}

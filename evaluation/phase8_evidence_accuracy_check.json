@@ -1,0 +1,647 @@
+{
+  "n_entities_sampled": 25,
+  "total_verifiable_claims_checked": 69,
+  "total_claims_passed": 69,
+  "accuracy_rate": 1.0,
+  "per_entity_detail": [
+    {
+      "entity_id": "bc1qcp6ljfp4g3y3xm8p67rc2g5gqfxxmsngdmpf4n",
+      "risk_score": 56.931246,
+      "n_evidence_items": 6,
+      "n_checks_performed": 4,
+      "n_checks_passed": 4,
+      "checks": [
+        {
+          "claim": "feature_z_average_time_between_transactions",
+          "claimed": 3.5,
+          "actual": 3.54,
+          "match": true
+        },
+        {
+          "claim": "feature_z_unique_countries",
+          "claimed": 2.9,
+          "actual": 2.9,
+          "match": true
+        },
+        {
+          "claim": "feature_z_transaction_count",
+          "claimed": 1.5,
+          "actual": 1.52,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 97.6,
+          "actual": 97.6,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "1JPGFUyzF1YGPoSMWHW4r948KACrnsKT7E",
+      "risk_score": 60.533035642857136,
+      "n_evidence_items": 4,
+      "n_checks_performed": 3,
+      "n_checks_passed": 3,
+      "checks": [
+        {
+          "claim": "feature_z_unique_countries",
+          "claimed": 2.9,
+          "actual": 2.9,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 97.2,
+          "actual": 97.2,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 10,
+          "actual": 10,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q75yvffk2tmcge8uw0cyzc2s53j59y0trx2wh8e",
+      "risk_score": 22.238598142857143,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 22.1,
+          "actual": 22.1,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 21,
+          "actual": 21,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "1Ad49XzHRPfYLVdCUMALD7GeGA8ahKLBjY",
+      "risk_score": 18.327196928571425,
+      "n_evidence_items": 3,
+      "n_checks_performed": 3,
+      "n_checks_passed": 3,
+      "checks": [
+        {
+          "claim": "feature_z_fee_mean",
+          "claimed": 2.2,
+          "actual": 2.18,
+          "match": true
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 25,
+          "actual": 25,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 11.6,
+          "actual": 11.6,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1ql0y6wtmw4gskvjw4r46kajt58s522uttdm6xyu",
+      "risk_score": 44.56859292857144,
+      "n_evidence_items": 5,
+      "n_checks_performed": 4,
+      "n_checks_passed": 4,
+      "checks": [
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_24h",
+          "claimed": 2.7,
+          "actual": 2.69,
+          "match": true
+        },
+        {
+          "claim": "feature_z_tx_count_last_24h",
+          "claimed": 2.0,
+          "actual": 2.03,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 62.0,
+          "actual": 62.0,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 24,
+          "actual": 24,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qfrm4ncnx0ejn5zlz6uus2qp33c9zn6yasvhlrv",
+      "risk_score": 58.65148735714286,
+      "n_evidence_items": 5,
+      "n_checks_performed": 5,
+      "n_checks_passed": 5,
+      "checks": [
+        {
+          "claim": "feature_z_fee_mean",
+          "claimed": 3.1,
+          "actual": 3.07,
+          "match": true
+        },
+        {
+          "claim": "feature_z_amount_sum_last_7d",
+          "claimed": 2.5,
+          "actual": 2.54,
+          "match": true
+        },
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_7d",
+          "claimed": 2.4,
+          "actual": 2.37,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 89.7,
+          "actual": 89.7,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 18,
+          "actual": 18,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qdp5qarvvr8lk5npew50yk3eyvm8n2up2darzj4",
+      "risk_score": 35.855163794117644,
+      "n_evidence_items": 3,
+      "n_checks_performed": 3,
+      "n_checks_passed": 3,
+      "checks": [
+        {
+          "claim": "feature_z_average_transaction_amount",
+          "claimed": 1.9,
+          "actual": 1.85,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 51.1,
+          "actual": 51.1,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 17,
+          "actual": 17,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "1TaCPsbjgKbuLyKY65ZgNyENjLS3AtFQi8",
+      "risk_score": 27.20810907142857,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 26.9,
+          "actual": 26.9,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 25,
+          "actual": 25,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qzgts5lqj6ets9tq5jln96wyju6zwwcsvgqnxcx",
+      "risk_score": 27.931539357142853,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 28.6,
+          "actual": 28.6,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 28,
+          "actual": 28,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q5yjan7guqwn4frfyksheqth2sup3kcx5gfpdqu",
+      "risk_score": 58.5948348961039,
+      "n_evidence_items": 5,
+      "n_checks_performed": 5,
+      "n_checks_passed": 5,
+      "checks": [
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_24h",
+          "claimed": 4.0,
+          "actual": 3.97,
+          "match": true
+        },
+        {
+          "claim": "feature_z_unique_countries",
+          "claimed": 2.9,
+          "actual": 2.9,
+          "match": true
+        },
+        {
+          "claim": "feature_z_tx_count_last_24h",
+          "claimed": 2.0,
+          "actual": 2.03,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 97.4,
+          "actual": 97.4,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 11,
+          "actual": 11,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "1YyKMAa1aZ8raSVpCR8KW56Mmq594LgsAW",
+      "risk_score": 42.512714,
+      "n_evidence_items": 4,
+      "n_checks_performed": 4,
+      "n_checks_passed": 4,
+      "checks": [
+        {
+          "claim": "feature_z_tx_count_last_24h",
+          "claimed": 2.0,
+          "actual": 2.03,
+          "match": true
+        },
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_24h",
+          "claimed": 1.8,
+          "actual": 1.78,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 54.7,
+          "actual": 54.7,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 20,
+          "actual": 20,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q5f0f6hzq8vundwvcy5gcxeu9ktnn9jek6e98xh",
+      "risk_score": 41.73997535714285,
+      "n_evidence_items": 2,
+      "n_checks_performed": 1,
+      "n_checks_passed": 1,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 55.7,
+          "actual": 55.7,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qrxqdfncr3mcaa470q8kxc4jqlntmgc5nw2hy94",
+      "risk_score": 29.879154357142856,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 37.3,
+          "actual": 37.3,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 14,
+          "actual": 14,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qrls70fcgfrm6ftt7nx02fxp4pqufl54xqsfjg4",
+      "risk_score": 16.312253186635942,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "neighbor_count",
+          "claimed": 31,
+          "actual": 31,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 3.8,
+          "actual": 3.8,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qh2cfmekv2u9kfuept3j463a0d7q3aqujuav786",
+      "risk_score": 22.913136428571427,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 29.4,
+          "actual": 29.4,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 16,
+          "actual": 16,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "1snJXSR6ZU2ZAMm4wNr2eGvcfH8D6PrSeR",
+      "risk_score": 56.92431792857142,
+      "n_evidence_items": 3,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 88.9,
+          "actual": 88.9,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 14,
+          "actual": 14,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qyksmygcwese2yta2m7tw8xx8qlt9gy6w3xd83g",
+      "risk_score": 14.03972513664596,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "neighbor_count",
+          "claimed": 23,
+          "actual": 23,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 7.4,
+          "actual": 7.4,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qsrhe9gqty3e6y0azqd8m2m0fldvk73qf0747r2",
+      "risk_score": 22.2054525,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 18.1,
+          "actual": 18.2,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 27,
+          "actual": 27,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q5x7azjy6yj6fhdp67wmau8ataansfuerkf03k9",
+      "risk_score": 37.372522033834585,
+      "n_evidence_items": 4,
+      "n_checks_performed": 4,
+      "n_checks_passed": 4,
+      "checks": [
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_24h",
+          "claimed": 2.1,
+          "actual": 2.15,
+          "match": true
+        },
+        {
+          "claim": "feature_z_tx_count_last_24h",
+          "claimed": 2.0,
+          "actual": 2.03,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 48.4,
+          "actual": 48.4,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 19,
+          "actual": 19,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "13z6GQJK3ZGzjgfQPX88gDiHC3DKXQAdLo",
+      "risk_score": 22.57769378571428,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 27.4,
+          "actual": 27.4,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 18,
+          "actual": 18,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q9xpyxk2sqfhml0y6q6chc04rughexlza6n6c8d",
+      "risk_score": 19.70044678571428,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "neighbor_count",
+          "claimed": 27,
+          "actual": 27,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 7.5,
+          "actual": 7.5,
+          "match": "True"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q4fxksw9u84lzy5a6qdqvduwczj92m4q6d59m4j",
+      "risk_score": 80.25946552990033,
+      "n_evidence_items": 7,
+      "n_checks_performed": 3,
+      "n_checks_passed": 3,
+      "checks": [
+        {
+          "claim": "centrality_percentile",
+          "claimed": 97.4,
+          "actual": 97.4,
+          "match": "True"
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 94.2,
+          "actual": 94.2,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 43,
+          "actual": 43,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qxqx7pzcfzck8jwes227gy8h5k5rsjdppttnp8l",
+      "risk_score": 35.07322221428571,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "model_output_percentile",
+          "claimed": 37.3,
+          "actual": 37.3,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 28,
+          "actual": 28,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1quhke85jpkxk985ux94hzcs0tplkdmgwn22fplp",
+      "risk_score": 35.985642824675324,
+      "n_evidence_items": 4,
+      "n_checks_performed": 4,
+      "n_checks_passed": 4,
+      "checks": [
+        {
+          "claim": "feature_z_recent_vs_baseline_ratio_24h",
+          "claimed": 2.1,
+          "actual": 2.06,
+          "match": true
+        },
+        {
+          "claim": "feature_z_tx_count_last_24h",
+          "claimed": 2.0,
+          "actual": 2.03,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 47.9,
+          "actual": 47.9,
+          "match": "True"
+        },
+        {
+          "claim": "neighbor_count",
+          "claimed": 22,
+          "actual": 22,
+          "match": true
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1q8580shztn4a08xshnw3gjcmkpepd0c9nlfhl8c",
+      "risk_score": 19.854107928571427,
+      "n_evidence_items": 2,
+      "n_checks_performed": 2,
+      "n_checks_passed": 2,
+      "checks": [
+        {
+          "claim": "neighbor_count",
+          "claimed": 24,
+          "actual": 24,
+          "match": true
+        },
+        {
+          "claim": "model_output_percentile",
+          "claimed": 13.7,
+          "actual": 13.7,
+          "match": "True"
+        }
+      ]
+    }
+  ]
+}

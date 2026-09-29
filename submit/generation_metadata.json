@@ -1,0 +1,19 @@
+{
+  "seed": 209,
+  "rows": 100,
+  "n_wallets": 30,
+  "anomaly_rate": 0.07,
+  "n_risky_wallets": 7,
+  "n_scenario_instances": 6,
+  "span_days": 90,
+  "leakage_sanity_check": {
+    "fee_mean_risky": 0.0006300779166666667,
+    "fee_mean_normal": 0.0005315394736842105,
+    "amount_mean_risky": 0.3031745734722222,
+    "amount_mean_normal": 0.30219164763157896,
+    "risky_row_fraction": 0.24
+  },
+  "network_only_observations": 12,
+  "network_only_seeded": 9,
+  "network_only_noise": 3
+}

@@ -1,0 +1,52 @@
+{
+  "default_hypothesis_weights": {
+    "anomaly": 0.45,
+    "graph_centrality": 0.2,
+    "cluster_outlier": 0.15,
+    "flagged_neighbors": 0.2
+  },
+  "naive_correlation_weights_worse_kept_for_comparison": {
+    "anomaly": 0.2298,
+    "graph_centrality": 0.0762,
+    "cluster_outlier": 0.4694,
+    "flagged_neighbors": 0.2246
+  },
+  "logistic_regression_weights_used": {
+    "anomaly": 0.5791,
+    "graph_centrality": 0.1261,
+    "cluster_outlier": 0.0977,
+    "flagged_neighbors": 0.1971
+  },
+  "logistic_regression_info": {
+    "raw_coefficients": {
+      "anomaly": 19.099,
+      "graph_centrality": 4.1601,
+      "cluster_outlier": 3.2217,
+      "flagged_neighbors": 6.5011
+    },
+    "intercept": -21.3774
+  },
+  "thresholds": {
+    "critical": 78.58457882333977,
+    "high": 65.9243678602708,
+    "medium": 57.94889577686335
+  },
+  "risk_level_counts": {
+    "LOW": 16982,
+    "MEDIUM": 2031,
+    "HIGH": 779,
+    "CRITICAL": 208
+  },
+  "ranking_comparison": {
+    "logistic_combined_pr_auc": 0.7228,
+    "anomaly_only_pr_auc": 0.7915,
+    "default_weight_combined_pr_auc": 0.64,
+    "naive_correlation_combined_pr_auc": 0.5057,
+    "logistic_combined_precision_at_50": 0.8,
+    "anomaly_only_precision_at_50": 0.8,
+    "default_weight_precision_at_50": 0.62,
+    "logistic_combined_precision_at_100": 0.53,
+    "anomaly_only_precision_at_100": 0.51,
+    "default_weight_precision_at_100": 0.54
+  }
+}

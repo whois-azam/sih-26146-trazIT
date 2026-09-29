@@ -1,0 +1,33 @@
+{
+  "divergence_type_a_count": 666,
+  "divergence_type_a_high_risk": 589,
+  "divergence_type_b_count": 225,
+  "divergence_type_b_high_risk": 181,
+  "behavior_change_flags": 3174,
+  "behavior_change_risky_enrichment": 0.63,
+  "chain_alerts": 47,
+  "drift_check_negative_control": {
+    "ks_statistic": 0.0201,
+    "p_value": 0.470514,
+    "drift_detected": false,
+    "alpha": 0.01,
+    "reference_mean": -0.0896,
+    "reference_std": 0.0463,
+    "new_batch_mean": -0.0892,
+    "new_batch_std": 0.0454,
+    "mean_shift": 0.0005,
+    "interpretation": "No significant drift detected -- new batch's score distribution is statistically consistent with the training reference."
+  },
+  "drift_check_positive_control": {
+    "ks_statistic": 0.881,
+    "p_value": 0.0,
+    "drift_detected": true,
+    "alpha": 0.01,
+    "reference_mean": -0.0896,
+    "reference_std": 0.0463,
+    "new_batch_mean": 0.0876,
+    "new_batch_std": 0.0644,
+    "mean_shift": 0.1772,
+    "interpretation": "Significant distribution shift detected -- population behavior has changed from what the model was trained on; consider retraining."
+  }
+}

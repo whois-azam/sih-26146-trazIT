@@ -1,0 +1,396 @@
+{
+  "top_10_highest_risk": [
+    {
+      "entity_id": "bc1qh4e2pw9ga6pxg0t7pu06ptrc7gpm73fa4vyvh4",
+      "risk_score": 87.26,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "total transaction count is 15.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 14.3x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "incoming tx count is 11.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.8x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 1 of its 1 counterparties that are themselves flagged as anomalous"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.7% of the population (anomaly model output, not a probability of wrongdoing)"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1quvrl3dddw6rrqcy23859w9n235sf0k830mjn65",
+      "risk_score": 87.25,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "total transaction count is 15.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 14.3x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "incoming tx count is 12.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.8x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 1 of its 1 counterparties that are themselves flagged as anomalous"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.7% of the population (anomaly model output, not a probability of wrongdoing)"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qktpusvxgfzcz3q2cue2e6uttjqvnr3xq6pnhk6",
+      "risk_score": 83.37,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 8,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "value moved in the last 7 days is 23.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 4.8x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "incoming tx count is 4.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.1x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.8% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.1% of entities (graph degree centrality)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 11 of its 65 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qjawmlkfsnfx9ftfytwzsc5yf7vlddrr9acxraw",
+      "risk_score": 83.16,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "average transaction size is 10.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct counterparties is 2.4x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 1.6x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.3% of entities (graph degree centrality)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.3% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 14 of its 82 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qx5mkyrvntuae70a743e68ygadzhugl4d5hluds",
+      "risk_score": 83.15,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "value moved in the last 7 days is 7.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "src ip association count is 1.7x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "last-24h activity vs. own historical baseline is 1.6x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 98.2% of entities (graph degree centrality)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 98.1% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 10 of its 47 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "1yawsUjoj3FYmJksb7yXzvEEaHKZ5vXXWE",
+      "risk_score": 83.0,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "tx count last 1h is 11.8x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "recent vs baseline ratio 1h is 9.1x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "number of distinct recipients is 1.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 98.9% of entities (graph degree centrality)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 97.0% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 13 of its 56 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qjgqs27hqjnedyu55na2t68qe3t8cnqwndyyr9y",
+      "risk_score": 82.82,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 8,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "total value received is 9.9x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "incoming tx count is 5.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 5.4x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.3x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.5% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.2% of entities (graph degree centrality)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 11 of its 75 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qkw6sk54kr0jalh0ll9p4yrxy2ax43z4a4a38vq",
+      "risk_score": 82.55,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 8,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "total value received is 19.1x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "incoming tx count is 6.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 5.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.3x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.7% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.2% of entities (graph degree centrality)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 9 of its 69 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qtyar0483umqkkukx5wk0gzfhwku297chqeyygw",
+      "risk_score": 82.53,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 7,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "median transaction amount is 5.5x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "fee std is 2.0x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "number of distinct senders is 1.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.0% of entities (graph degree centrality)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 98.4% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 10 of its 60 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    },
+    {
+      "entity_id": "bc1qznq2np2nwun2g7h6f5cqs4m9s2tgxne7mejmxt",
+      "risk_score": 82.53,
+      "risk_level": "CRITICAL",
+      "n_evidence_items": 9,
+      "evidence": [
+        {
+          "category": "feature",
+          "statement": "total value received is 14.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "distinct IPs observed is 5.1x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "outgoing tx count is 4.7x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "typical time between transactions is 2.2x standard deviations lower than the population baseline"
+        },
+        {
+          "category": "feature",
+          "statement": "average fee paid is 2.2x standard deviations higher than the population baseline"
+        },
+        {
+          "category": "behavioral",
+          "statement": "Behavioral pattern does not match any dense cluster of similar entities (flagged as a behavioral outlier)"
+        },
+        {
+          "category": "model_output",
+          "statement": "Overall behavior is more unusual than 99.6% of the population (anomaly model output, not a probability of wrongdoing)"
+        },
+        {
+          "category": "graph",
+          "statement": "Network position is more central than 99.3% of entities (graph degree centrality)"
+        },
+        {
+          "category": "graph",
+          "statement": "Directly connected to 10 of its 76 counterparties that are themselves flagged as anomalous"
+        }
+      ]
+    }
+  ],
+  "lowest_risk_sanity_check": {
+    "entity_id": "bc1q4mqakkd5eqkkalnxpzutal3rd8875nq9pcpc5r",
+    "risk_score": 3.91,
+    "risk_level": "LOW",
+    "n_evidence_items": 1,
+    "evidence": [
+      {
+        "category": "model_output",
+        "statement": "Overall behavior is more unusual than 3.0% of the population (anomaly model output, not a probability of wrongdoing)"
+      }
+    ]
+  }
+}
