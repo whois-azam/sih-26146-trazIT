@@ -144,4 +144,4 @@ TrazIT is not a blockchain node or indexer — it works on uploaded data files, 
 
 `pandas`, `numpy`, `scikit-learn`, `networkx`, `plotly`, `streamlit`, `pyyaml`, `maxminddb`, `hdbscan`, `joblib`, `scipy`, `llama-cpp-python`
 
-Built for Python 3.11. Tested on Windows and Linux (Ubuntu/Lubuntu via Docker).
+Built for Python 3.11. Tested onLinux (Ubuntu)
