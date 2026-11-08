@@ -1,4 +1,4 @@
-# TrazIT — Offline Bitcoin Transaction Forensics
+# TrazIT  Offline Bitcoin Transaction Forensics
 
 TrazIT is a fully offline system for analyzing Bitcoin transaction data. You upload a CSV, JSON, or XML file of transaction records, and the system runs them through a pipeline of anomaly detection, graph analysis, behavioral clustering, and GeoIP enrichment, then surfaces the results as a ranked, evidence-backed list of entities that warrant investigation.
 
